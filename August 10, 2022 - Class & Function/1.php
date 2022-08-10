@@ -9,8 +9,11 @@
         var $cooling_fan;
         var $casing_cpu;
                 
-        function cpuInput($processor){
-            return "Hello Andi & Bobi!";
+        function cpuMerk1(){
+            return "Intel i9";
+        }
+        function cpuMerk2(){
+            return "Apple M2";
         }
     }
 
@@ -20,5 +23,5 @@
     $cpuA->name = "Andi";
     $cpuB->name = "Bobi";
 
-    echo $cpuA->name . "<br>" . $cpuB->name;
+    echo "This computer belongs to " . $cpuA->name . " with processor " . $cpuA->cpuMerk1() . "<br>" . "This computer belongs to " . $cpuB->name . " with processor " . $cpuA->cpuMerk2();
 ?>
