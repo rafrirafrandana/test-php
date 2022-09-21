@@ -66,3 +66,5 @@ $country5->president_pm = "Bongbong Marcos";
 $country5->independence_day = "July 4, 1946";
 $country5->independence_from = "United States";
 echo $country5->detail();
+
+?>
